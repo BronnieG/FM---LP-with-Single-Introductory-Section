@@ -1,0 +1,57 @@
+@media  (min-width: 768px) {
+.RowBackground{
+  display: flex;
+  max-width: 100%;
+  height: 100%;
+  padding: 40px;
+  background: url('Images/bg-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-color:var(--Primary-Violet);
+  }
+}
+
+@media  (min-width: 768px) {
+.MainGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center; 
+  }
+}
+
+@media  (min-width: 768px) {
+.Logo{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  }
+}
+
+@media  (min-width: 768px) {
+.ProductIntro {
+  align-self: center;
+  text-align: left;
+  padding-left: 50px;
+  }
+}
+
+@media  (min-width: 768px) {
+h1{
+  font-size: 32px;
+  }
+}
+
+@media  (min-width: 768px) {
+button{
+  font-size: 18px;
+  font-weight: 900;
+  }
+}
+
+@media  (min-width: 768px) {
+.SocialIcons{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-self: end;
+  }
+}
