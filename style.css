@@ -64,7 +64,7 @@ button:hover
 
 .Logo
 {
-  background: url('logo.svg');
+  background: url('Images/logo.svg');
   background-size: contain;
   background-repeat: no-repeat;
   height: 30px;
